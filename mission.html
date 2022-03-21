@@ -11,7 +11,15 @@
   <link href="css/styles.css" rel="stylesheet"> 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> 
-  <script src="js/scripts.js"></script> 
+  <script src="js/scripts.js"></script> <!-- Global site tag (gtag.js) - Google Analytics --> 
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XTW2TD26WK"></script> 
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-XTW2TD26WK');
+  </script> 
  </head> 
  <body> <!-- Responsive navbar--> 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> 
@@ -61,6 +69,9 @@
       </div> 
       <div class="col-md-2 footer-nav-menu"> 
        <h6 class="text-uppercase font-weight-bold"> <a href="mission.html">Mission</a> </h6> 
+      </div> 
+      <div class="col-md-2 footer-nav-menu"> 
+       <h6 class="text-uppercase font-weight-bold"> <a href="blog.html">Blog</a> </h6> 
       </div> 
       <div class="col-md-2 footer-nav-menu"> 
        <h6 class="text-uppercase font-weight-bold"> <a href="privacy.html">Privacy policy</a> </h6> 
